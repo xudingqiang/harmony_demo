@@ -25,6 +25,12 @@ struct Index {
 
         ItemList({title:'布局组件测试',submitArrow: this.toPage})
 
+        ItemList({title:'待办列表',submitArrow:()=>{
+          router.pushUrl({ url: 'pages/ToDoList' }).then(() => {
+          }).catch((err:object) => {
+          })
+        }})
+
         // Button(){
         //   Text("布局组件测试")
         //     .fontColor(Color.Blue)
