@@ -3,6 +3,7 @@
     "pages/Index",
     "pages/Page_Test",
     "pages/ToDoList",
+    "pages/HttpTest",
     "pages/DbTest"
   ]
 }

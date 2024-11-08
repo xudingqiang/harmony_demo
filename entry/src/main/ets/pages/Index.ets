@@ -31,6 +31,7 @@ struct Index {
           })
         }})
 
+
         // Button(){
         //   Text("布局组件测试")
         //     .fontColor(Color.Blue)
@@ -61,7 +62,7 @@ struct Index {
         }.margin({
           top:16
         }).padding(16).width(300).onClick(()=>{
-          router.pushUrl({ url: 'pages/DbTest' }).then(() => {
+          router.pushUrl({ url: 'pages/HttpTest' }).then(() => {
           }).catch((err:object) => {
             // console.error(`Failed to jump to the second page.Code is ${err.code}, message is ${err.message}`)
           })
