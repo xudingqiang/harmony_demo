@@ -11,6 +11,9 @@
     {
       "name": "EntryAbility_label",
       "value": "label"
+    }, {
+      "name": "web_alert_dialog_button_value",
+      "value": "确定"
     }
   ]
 }

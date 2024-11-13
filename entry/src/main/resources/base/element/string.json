@@ -11,6 +11,15 @@
     {
       "name": "EntryAbility_label",
       "value": "label"
+    }, {
+      "name": "web_alert_dialog_button_value",
+      "value": "确定"
+    },   {
+      "name": "congratulate",
+      "value": "恭喜您抽中：  "
+    },    {
+      "name": "btnValue",
+      "value": "点击抽奖"
     }
   ]
 }

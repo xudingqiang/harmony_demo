@@ -55,6 +55,20 @@ struct Index {
           })
         })
 
+
+        Button(){
+          Text("WebView测试")
+            .fontColor(Color.Blue)
+            .fontSize(24)
+        }.margin({
+          top:16
+        }).padding(16).width(300).onClick(()=>{
+          router.pushUrl({ url: 'pages/WebViewTest' }).then(() => {
+          }).catch((err:object) => {
+            // console.error(`Failed to jump to the second page.Code is ${err.code}, message is ${err.message}`)
+          })
+        })
+
         Button(){
           Text("Http测试")
             .fontColor(Color.Blue)
