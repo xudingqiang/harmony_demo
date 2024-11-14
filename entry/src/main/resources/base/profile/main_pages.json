@@ -5,6 +5,7 @@
     "pages/ToDoList",
     "pages/HttpTest",
     "pages/DbTest",
-    "pages/WebViewTest"
+    "pages/WebViewTest",
+    "pages/NotificationTest"
   ]
 }
